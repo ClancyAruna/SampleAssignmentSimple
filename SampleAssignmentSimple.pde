@@ -18,8 +18,10 @@ void drawOutlineOfLights() {
   rect(width/2, height/2, 75, 200, 10);
   
   //lights
-  fill(255);
+  fill(255,255,0);
   ellipse(width/2, height/2 - 65, 50, 50); //top
+  fill(255,0,0);
   ellipse(width/2, height/2, 50, 50); //middle
+  fill(25,14,255);
   ellipse(width/2, height/2 + 65, 50, 50); //bottom
 }
